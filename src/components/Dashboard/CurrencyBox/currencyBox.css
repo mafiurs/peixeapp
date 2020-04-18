@@ -1,0 +1,28 @@
+.currency{
+    color: #494949;
+    padding-left: 0.6rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+    margin: 0.5rem 0
+}
+.currency > a{
+    display:block
+}
+.currency__flag{
+    font-size: 4rem;
+}
+
+.currency__name{
+    display: block;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.currency__value{
+    display: block;
+    font-size: 0.8rem;
+}
+.currency__desc{
+    font-size: 0.6rem;
+    text-transform: capitalize;
+}

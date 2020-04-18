@@ -1,0 +1,95 @@
+
+.movies{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.movies-poster{
+    margin:1rem;
+    max-width: 16rem;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+
+.movies-poster__image{
+    width: 100%;
+}
+
+.movies-poster__overlay-content{
+    position: absolute;
+    bottom: 12%;
+    background: rgba(255, 255, 255, 0.8);
+    height: auto;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+.movies-poster__overlay-button{
+    height: 12%;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    background: #353535;
+    color:#fff;
+    text-align: center;
+}
+.movies-poster__overlay-button__text{
+    transform: translateY(50%);
+
+}
+.movies-poster__overlay-button:active,
+.movies-poster__overlay-button:hover
+{
+    background: #4d4d4d;
+    cursor: pointer;
+}
+/*  */
+
+.last-indices-container{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+}
+
+.indices-container{  
+    width: 100%;
+}
+@media (min-width: 25rem) {
+    .indices-container{  
+        width: auto;
+    }
+}
+
+.indices-container__title{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    background: #dedede69;
+    font-weight: 700;
+    color: #494949;
+    border-bottom: 1px solid #78787854;
+    margin: 0 0.5rem;
+    
+}
+
+.indices-container__flexbox{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.indices-container__flexbox .currency {
+    border-right: 1px solid #78787854;
+  }
+
+.indices-container__flexbox .currency:last-child {
+    border-right: 0;
+}
+
+.skeleton-container{  
+    padding:1rem;
+    width: 100%;
+}
+
+

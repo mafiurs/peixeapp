@@ -1,0 +1,44 @@
+.last-indices-container{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+}
+
+.indices-container{  
+    width: 100%;
+}
+@media (min-width: 25rem) {
+    .indices-container{  
+        width: auto;
+    }
+}
+
+.indices-container__title{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    background: #dedede69;
+    font-weight: 700;
+    color: #494949;
+    border-bottom: 1px solid #78787854;
+    margin: 0 0.5rem;
+    
+}
+
+.indices-container__flexbox{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.indices-container__flexbox .currency {
+    border-right: 1px solid #78787854;
+  }
+
+.indices-container__flexbox .currency:last-child {
+    border-right: 0;
+}
+
+.skeleton-container{  
+    padding:1rem;
+    width: 100%;
+}

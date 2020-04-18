@@ -1,0 +1,9 @@
+const types = {
+ SET_MOVIES: "SET_MOVIES",
+ SET_FAVORITE_MOVIE: "SET_FAVORITE_MOVIE",
+ SET_LOADING: "SET_LOADING",
+ SET_ERROR: "SET_ERROR",
+ SET_NOT_FOUND: "SET_NOT_FOUND",
+};
+
+export default types;

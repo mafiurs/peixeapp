@@ -1,0 +1,27 @@
+.chart-box{
+    /* position: relative; */
+    /* height: 800px; */
+    /* padding-top: 40%;  */
+    margin-bottom: 2rem;
+}
+
+
+
+/* .chart-box__child{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+
+.moneyLabel{
+    color:#494949;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+
+.moneyLabel__info{
+    font-size: 0.6rem;
+    text-transform: capitalize;
+}
